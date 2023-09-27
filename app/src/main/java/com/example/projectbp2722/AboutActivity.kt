@@ -10,6 +10,6 @@ class AboutActivity : AppCompatActivity() {
         setContentView(R.layout.activity_about)
         val imgCall:ImageView = findViewById(R.id.imageViewCall)
         //evet call diklik
-        imgCall.seton
+        //imgCall.seton
     }
 }
