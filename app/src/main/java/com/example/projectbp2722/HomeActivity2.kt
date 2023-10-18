@@ -13,6 +13,7 @@ class HomeActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_home2)
 
         val btnBookKidActivity:Button = findViewById(R.id.buttonMenu1)
+        val btnSpace: Button = findViewById(R.id.buttonMenu3)
 
 
             val rvBuku:RecyclerView=findViewById(R.id.recycleViewBuku)
@@ -27,6 +28,11 @@ class HomeActivity2 : AppCompatActivity() {
             val intentBookid=Intent(this,BookKidActivity::class.java)
             startActivity(intentBookid)
         }
+        btnSpace.setOnClickListener{
+            val intentSpace= Intent(this,ResponsiActivity::class.java)
+            startActivity(intentSpace)
+        }
+
 
     }
 }
